@@ -22,10 +22,20 @@ TDD helps to minimise the risk of a failure. It increases the quality of a produ
 - Alter the code if test fails
 - Run tests again until they pass
 
+![TDD](tdd.jpg)
+
+## Commands
+
+- `python -m pytest` => Runs the test
+- `python -m pytest -v` => Breakdown of the test
+- `python -m unittest discover -v` => Breakdown of the test
+
 ## Naming conventions
 
-- simple_calc
-- test_simple_calc
+Example:
+
+- `simple_calc` => Main file
+- `test_simple_calc` => Tested file
 
 ## Example implementation
 
