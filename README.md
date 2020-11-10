@@ -14,7 +14,7 @@
 
 TDD helps to minimise the risk of a failure. It increases the quality of a product and reduces the chance of sending faulty/broken product to production.
 
-## Implementation
+### Implementation
 
 - File for testing
 - File for code
@@ -24,18 +24,26 @@ TDD helps to minimise the risk of a failure. It increases the quality of a produ
 
 ![TDD](tdd.jpg)
 
-## Commands
+### Commands
 
 - `python -m pytest` => Runs the test
 - `python -m pytest -v` => Breakdown of the test
 - `python -m unittest discover -v` => Breakdown of the test
 
-## Naming conventions
+### Naming conventions
 
 Example:
 
 - `simple_calc` => Main file
 - `test_simple_calc` => Tested file
+
+#### PyTest flow
+
+- PyTest looks for a `test_*.py` file name
+- PyTest looks for `test_*` function name
+- It executes those files / functions
+- Prints the result of the tests
+- `-v` flag for used for more in-depth breakdown of the test
 
 ## Example implementation
 
