@@ -67,3 +67,20 @@ test_simple_calc.py ....                                                        
 
 ================================================== 4 passed in 0.04s ==================================================
 ```
+
+## TASK
+
+- Create a new repo
+- Name `tdd_test_task`
+- Create a test file
+- Create a code file
+- Implement Pseudo Code
+- Create README
+- Document steps to replicate the task
+
+### Code
+
+- Create a test to check if the number is divisible by 0
+  - If True Pass the test
+  - If False Fail the test
+- Create a test to check if given values are positive
